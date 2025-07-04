@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    background-color: #4169E1  ;
+    position: relative;
+}
+.header-link{
+    display: flex;
+    margin: 30px 40px 40px 40px;
+}
+.header-link div{
+    margin: 0px 15px;
+}
+.header-link div a{
+    color: #1ec981;
+    text-decoration: none;
+}
+.user {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.user a img{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 10%;
+}
+.logo h1{
+    color: #1ec981;
+    font-family: 'Courier New', Courier, monospace;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #4169E1;
+    color: whitesmoke;
+    text-align: center;
+}
